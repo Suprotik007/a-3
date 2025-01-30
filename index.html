@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en " data-theme="light" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/8d8f9e8f11.js" crossorigin="anonymous"></script>
+    <!-- tailwind-cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy-ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- sora-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- adlam-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+
+    <style>
+        
+.sora {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.ad {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+  </style>
+
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'btn-primary' : '#FFDC26'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="sora">
+    <header>
+        <!-- navbar -->
+        <nav>
+            <nav class="container mx-auto border-b-[1px]  border-black lg:border-0">
+                <div class="navbar bg-[#FFF0E4]">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                          
+                        </div>
+                   
+                      </div>
+                    <img class="mr-3" src="./c1-assets/logo-header.png" alt="">
+                      <p >Browse<span class="text-btn-primary">4</span>Pets</p>
+                    </div>
+                   
+                    <div class="navbar-center hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 text-[#111111] font-semibold ">
+                        <li><a>Find a pet</a></li>
+                        <li><a >Breed</a> </li>
+                        <li><a>Contact Us</a></li>
+                        
+                      </ul>
+                    </div>
+                    <div class="navbar-end ">
+                        <a href=""><i class="hidden sm:block mr-4 fa-regular fa-bell"></i></a>
+                        <a href=""><i class="hidden sm:block mr-4 fa-solid fa-magnifying-glass"></i></a>
+                        <i class=" lg:hidden fa-solid fa-bars"></i>
+                        <button class="btn btn-outline btn-warning py-4 px-8 text-black mr-3 hidden sm:block ">Login</button>
+                      <a class="bg-btn-primary text-[#111111] rounded-lg font-semibold py-3 px-7 hidden sm:block ">Register</a>
+
+                    </div>
+                  </div>
+                
+            </nav>
+        </nav>
+        <!-- banner -->
+         <section class="container mx-auto bg-contain bg-no-repeat  bg-center h-screen" style="background-image: url(./c1-assets/cat-big.png);">
+            
+            
+            <div class="mt-20">
+                <h3 class="ad text-[56px]">Pamper Your Pet, <br> Because They Deserve <br> the Best</h3>
+                <p class="text-[#111111] mt-4">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                <button class="btn bg-btn-primary mt-6">Find a pet</button>
+                </div>
+                </section>
+    </header>
+</body>
+</html>
