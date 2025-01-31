@@ -6,4 +6,4 @@ module.exports = {
     },
     plugins: [],
   }
-  
+  // bg-contain bg-no-repeat  bg-center h-screen sm:bg-cover  
