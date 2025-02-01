@@ -90,7 +90,7 @@
          <section class="container mx-auto relative" >
             
             <div class="mt-20 relative z-10 ml-5 ">
-                <h3 class="ad text-[56px]">Pamper Your Pet, <br> Because They Deserve <br> the Best</h3>
+                <h3 class="ad text-[56px] animate-bounce" >Pamper Your Pet, <br> Because They Deserve <br> the Best</h3>
                 <p class="text-[#111111] mt-4">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
                 <button class="btn bg-btn-primary mt-6">Find a pet</button>
                 </div>
@@ -111,7 +111,7 @@
   <!-- box -->
   <section class="container mx-auto ">
     <div>
-      <h2 class=" mt-[400px] ad text-4xl">Browse By Categories</h2>
+      <h2 class=" sm:mt-[10px] md: mt-[400px] lg:mt-[400px]  ad text-4xl">Browse By Categories</h2>
     </div>
     <div class="mt-12 grid grid-cols-2 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 ">
       <!-- box-1 -->
@@ -177,11 +177,11 @@
 </div>
   </section>
  <!-- trending -->
-<section class="bg-[#FFF0E4] mt-[126px] h-[775px] flex" >
+<section class=" mt-[80px] md:mt-[126px] lg:mt-[126px] md:h-[775px] flex md:bg-[#FFF0E4] " >
    
-<section class=" lg:flex mx-auto">
+<section class=" lg:flex mx-auto  ">
   <section >
-    <h3 class="ad pt-36 text-4xl container mx-auto">Trending Pet Products</h3>
+    <h3 class="ad pt-5 md:pt-36 text-4xl container mx-auto">Trending Pet Products</h3>
     <div class="container mx-auto">
       <!-- dog-card -->
   <div class="mt-12 bg-[#F9DF8A] w-[424px] h-[402px] relative">
@@ -197,7 +197,7 @@
     </div>
   </section>
   <!-- products -->
-  <section class="mt-[227px] ">
+  <section class="md:mt-[227px] ">
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-1">
       <!-- product-1 -->
        <div class="flex gap-4 bg-white w-[275px] h-[118px] rounded-lg p-4 mx-6 mb-4" >
@@ -325,19 +325,19 @@
   <div class="md:flex gap-12">
     <div >
       <!-- card-1 -->
-      <div class=" rounded-lg flex bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] mt-[47px] w-full h-[480px]">
+      <div class=" rounded-lg flex  bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] mt-[47px] w-full h-[480px]">
       
-        <div  class="py-[136px] pl-[88px]">
-          <h2 class="text-[20px] ">Under Price</h2>
+        <div  class="py-[136px] pl-[88px] ">
+          <h2 class="text-[20px] hidden sm:block ">Under Price</h2>
           <h3 class="text-[32px] mt-3  ad">Pet Grooming Mitt</h3>
-          <p class="text-white text-2xl mt-2">(Easy Hair Removal)</p>
+          <p class="text-white text-2xl mt-2 hidden sm:block">(Easy Hair Removal)</p>
           <h2 class="ad text-6xl mt-4">$7.99</h2>
           <div class="card-actions justify-end">
           
           </div>
         </div>
-        <figure>
-          <img
+        <figure >
+          <img 
             src="/c1-assets/cute-dog-mid.png"
             alt="dog" />
         </figure>
@@ -420,10 +420,10 @@
 <!-- footer -->
  <footer>
   <!-- subscribe-section -->
-   <div class="bg-[#FFF9F4] container h-[490px] mx-auto  mt-[140px] relative z-10">
-    <div class="  md:flex lg:flex md:text-start  sm:flex-none text-center items-center  container mx-auto">
+   <div class="bg-[#FFF9F4] container relative z-10 top-[300px] w-[360px]  md:h-[490px] mx-auto  mt-[140px] md:relative z-10    ">
+    <div class="  md:flex md:text-start  flex-none text-center items-center container mx-auto">
       <!-- img -->
-    <div class="md:pl-72   "><img  src="./c1-assets/cute-pet-mid.png" alt=""></div>
+    <div class="md:pl-72"><img  src="./c1-assets/cute-pet-mid.png" alt=""></div>
     <!-- dtl -->
      <div>
       <h2 class="ad pt-[77px] text-4xl">Get Pawsome News!</h2>
@@ -437,8 +437,8 @@
 
    </div>
    <!-- footer-2 -->
-   <footer class="footer bg-[#F9DF8A] text-neutral-content p-10 h-[650px] absolute top-[4000px]">
-    <div class="container mx-auto flex justify-evenly mt-[366px] grid grid-cols-1  md:grid grid-cols-3">
+   <footer class="footer bg-[#F9DF8A] text-neutral-content p-10 sm:h-[650px]  md:h-[650px]  md:absolute top-[4000px]  ">
+    <div class="container mx-auto justify-evenly md mt-[366px] grid sm:grid-cols-1 md:grid-cols-3 gap-6">
       <aside>
         <div class="flex text-center items-center gap-2">
           <img src="./c1-assets/logo-footer.png" alt="">
